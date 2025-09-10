@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 78px;
+  background-color: black;
+}
+.headerleft {
+  margin: 24px 0 24px 42px;
+  color: #ffffff;
+}
+.headerright {
+  padding-left: 20px;
+  display: flex;
+  margin: 25.5px 42px 25.5px 0px;
+  gap: 24px;
+  color: #ffffff;
+}
