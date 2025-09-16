@@ -24,7 +24,7 @@ function NextBanner() {
     <div class="nextbanner">
         {
             brandImages.map((i) =>(
-                 <img className="google" src={i.brandImage}></img>
+                 <img className="google" alt='google' src={i.brandImage}></img>
             ))
         }
     

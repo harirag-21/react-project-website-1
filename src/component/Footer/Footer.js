@@ -16,7 +16,7 @@ function Footer() {
                 
                 </div>
                 <div className="footer-icons">
-                  <img src={SocialLink}/>
+                  <img src={SocialLink} alt='socialLink'/>
 
                 </div>
                 </div>
