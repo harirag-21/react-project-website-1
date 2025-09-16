@@ -20,7 +20,7 @@ function ThirdBanner() {
     
 {
     boximages.map((i)=>(
-        <img className="fbox" src={i.boximage}/>
+        <img className="fbox" src={i.boximage} alt='Fbox'/>
     ))
 }
       {/* <div class="fbox">

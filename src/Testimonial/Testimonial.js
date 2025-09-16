@@ -15,7 +15,7 @@ function Testimonial() {
             <br /> Learn more at AnimaApp.com
           </p>
           
-          <img src={Client} />
+          <img src={Client} alt="Client" />
         </div>
         <div className="test1">
           <p id="secondp">
@@ -23,7 +23,7 @@ function Testimonial() {
             <br /> Learn more at AnimaApp.com
           </p>{" "}
       
-          <img src={Client} />
+          <img src={Client} alt="Client" />
         </div>
         <div className="test1">
           <p id="thirdp">
@@ -32,7 +32,7 @@ function Testimonial() {
             <br /> Learn more at AnimaApp.com{" "}
           </p>{" "}
           <br />
-          <img src={Client} />
+          <img src={Client}  alt="Client"/>
         </div>
       </div>
       <div className="grid4">
@@ -42,7 +42,7 @@ function Testimonial() {
             <br /> turned into code using Anima.
             <br /> Learn more at AnimaApp.com
           </p>
-         <img src={Client} />
+         <img src={Client} alt="Client" />
         </div>
         <div className="test1">
           <p id="secondp">
@@ -50,7 +50,7 @@ function Testimonial() {
             <br /> turned into code using Anima.
             <br /> Learn more at AnimaApp.com
           </p>{" "}
-           <img src={Client} />
+           <img src={Client} alt="Client" />
         </div>
         <div className="test1">
           <p id="thirdp">
