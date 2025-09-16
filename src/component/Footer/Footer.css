@@ -1,0 +1,66 @@
+.footer{
+  height: 426px;
+  background-color:#4F4F4F;
+}
+#sixthp{
+  font-size: xx-large;
+  padding-left: 24px;
+  padding-bottom: 1px;
+  color: white;
+  padding-top: 42px;
+}
+.footer-content{
+font-family: Epilogue;
+font-weight: 400;
+font-style: Regular;
+font-size: 19px;
+line-height: 27px;
+letter-spacing: 0%;
+color:#DDDDDD;
+padding-top: 100px;
+padding-left: 24px;
+}
+.footer-icons{
+  position: absolute;
+  padding-top: 300px;
+  padding-left: 24px;
+}
+#name{
+  width: 520px;
+  height: 59px;
+
+}
+#email{
+    width: 520px;
+  height: 59px;
+}
+form{
+  padding-bottom: 180px;
+  padding-left: 912px;
+}
+
+
+span{
+  color:#FFFFFF;
+  font-size: 25px;
+  position: absolute;
+  padding-top:10px ;
+  padding-left: 24px;
+}
+.footer-maincont{
+  display:flex;
+
+}
+.footer-left{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.footer-form{
+  position: absolute;
+  padding-right: 200px;
+  padding-top: 100px;
+}
+#test1{
+  color: #DDDDDD;
+}

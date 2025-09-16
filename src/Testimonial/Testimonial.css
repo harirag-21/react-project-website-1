@@ -1,0 +1,40 @@
+.fifthbanner{
+  height: 752px;
+  background-color:#000000;
+}
+.test1{
+  width: 394px;
+  height:230px;
+  background-color: #4F4F4F;
+  text-align: center;
+  padding-top: 30px;
+}
+#firstp{
+  color: #FFFFFF;
+  font-size: 20px;
+  text-align: center;
+}
+#secondp{
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+}
+#thirdp{
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+}
+.grid3{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin: 0px 2px  24px 2px;
+ padding-top: 40px;
+ padding-left: 100px;
+}
+.grid4{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  margin: 0px 2px  24px 2px;
+ padding-top: 40px;
+ padding-left: 100px;
+}

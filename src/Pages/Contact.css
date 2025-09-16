@@ -1,0 +1,45 @@
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.box2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 500px;
+    width: 500px;
+    background-color: grey;
+    margin: 100px 150px 300px 550px;
+}
+.hello{
+    height: 30px;
+    width: 300px;
+text-align: center;
+}
+h1{
+
+    text-align: center;
+}
+.btn9{
+    height: 30px;
+    width: 50px;
+    padding-bottom: 100px;
+    padding-left: 480px;
+}
+.box6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 500px;
+    width: 500px;
+    background-color: grey;
+    margin: 100px 150px 300px 550px;
+    position: absolute;
+    top: 95px;
+    right: 300px;
+    opacity: 0.9;
+
+}

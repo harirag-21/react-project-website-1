@@ -1,12 +1,13 @@
 import React from "react";
 import "./Header.css";
+import {NavLink} from 'react-router-dom'
 
 function Header() {
   const navitems = [
     {
       value: "/about",
       name: "ABOUT"
-    },{confi
+    },{
 
       value: "/work",
       name: "WORK",
@@ -18,18 +19,18 @@ function Header() {
   ];
   return (
     <div class="header">
-      <div class="headerleft">
+      <NavLink to={'/'} className="headerleft">
         <h1>LOGO</h1>
-      </div>
-       <div class="headerright">
+      </NavLink>
+       <div className="headerright">
     {
       navitems.map((i) =>(
-        <div class="headerright">
-        <div>{i.name}</div>
+        <NavLink to={i.value} className="headerright">
+        {i.name}</NavLink>
       
    
 
-   </div>
+   
       ))
     }
     </div>

@@ -1,20 +1,20 @@
 import React from 'react'
 import  './Banner.css'
 import bannerimage from '../../Assets/HeaderImage 1 (1).png'
-function Banner() {
+function Banner({setModal}) {
   return (
-<div class="banner">
-      <div class="bannerleft">
-        <div class="branding">Branding|Image making</div>
-        <div class="visual">Visual Designer</div> 
-        <div class="template">This is a template Figma file.turned into code using Anima.
+<div className="banner">
+      <div className="bannerleft">
+        <div className="branding">Branding|Image making</div>
+        <div className="visual">Visual Designer</div> 
+        <div className="template">This is a template Figma file.turned into code using Anima.
           Learn more at AnimaApp.com</div>
-        <button id="contact">Contact</button>
+        <button id="contact" onClick={() =>setModal(true)}>Contact</button>
 </div>
       
-      <div class="bannerright">
+      <div className="bannerright">
 
-        <img src={bannerimage} />
+        <img src={bannerimage} alt='bannerimage'/>
       </div>
       </div>
      )

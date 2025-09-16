@@ -1,0 +1,50 @@
+.fourthbanner{
+  height: 1030px;
+  background-color:#4F4F4F;
+
+}
+#work{
+  font-size: xx-large;
+  padding-left: 720px;
+  padding-bottom: 1px;
+  color: white;
+}
+.grid1{
+    display: grid;
+  grid-template-columns: repeat(3,1fr);
+ padding-top: 10px;
+ 
+}
+#art{
+  font-size: 20px;
+  color: #E6E6E6;
+}
+#pt{
+  padding-top: 10px;
+  font-size: 25px;
+  color: #E6E6E6;
+}
+.grid2{
+    display: grid;
+  grid-template-columns: repeat(3,1fr);
+
+ padding-top: 40px;
+}
+.imgg1{
+  text-align: center;
+}
+.imgg2{
+  text-align: center;
+}
+.imgg3{
+  text-align: center;
+}
+.imggg1{
+  text-align: center;
+}
+.imggg2{
+  text-align: center;
+}
+.imggg3{
+  text-align: center;
+}

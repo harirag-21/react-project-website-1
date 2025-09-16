@@ -1,0 +1,19 @@
+
+body{
+  overflow-x: hidden;
+}
+
+.nextbanner{
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  height: 130.83px;
+}
+.google{
+  padding: 46px 0px 46px 68px;
+}
+.addidas{
+  padding: 43px 68px 43px 0px;
+}
